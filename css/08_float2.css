@@ -1,0 +1,42 @@
+.divers, .citron, .citroncarre, .citron, .cercle, .vide {
+    width: 40px;
+    height: 40px;
+    border: 1px solid; /* noir par défaut */
+    margin: 2px;
+    float:left;
+    border-radius: 20%;
+    padding-top: 2px;
+}
+
+.clear{
+    clear:both;
+}
+
+.divers{
+    background-color: green;
+    border-radius: 20% 30% 40% 50%;
+
+}
+
+.citroncarre{
+    background-color: blue;
+    border-radius: 30% 0% ;
+}
+
+.citron{
+    background-color: pink;
+    border-radius: 20% 40%;
+}
+
+.cercle{
+    background-color: #00008b;
+    border-radius: 50%;
+}
+
+.citron:nth-child(18){
+    background-color: red;
+}
+
+.vide{
+    border:1px solid white;
+}

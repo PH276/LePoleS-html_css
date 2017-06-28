@@ -1,0 +1,27 @@
+table{
+    border-collapse: collapse; /* par défaut la bordure seait à double traits */
+}
+td, th{
+    width: 4em;
+    height: 4em;
+}
+
+.blanc{
+    background-color: white;
+}
+
+.jaune{
+    background-color: yellow;
+}
+
+.noir{
+    background-color: black;
+}
+
+.gris{
+    background-color: gray;
+}
+
+.bleu{
+    background-color: blue;
+}
