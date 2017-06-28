@@ -2,28 +2,28 @@ table{
     border-collapse: collapse; /* par défaut la bordure seait à double traits */
 }
 td, th{
-    width: 4em;
-    height: 4em;
+    width: 20px;
+    height: 20px;
 }
 
 .blanc{
     background-color: white;
 }
 
-.jaune{
-    background-color: yellow;
-}
-
 .noir{
     background-color: black;
 }
 
-.maron1{
-    background-color: #322515;
+.cheveux{
+    background-color: #423223;
 }
 
-.maron2{
-    background-color: #422323;
+.cheveux2{
+    background-color: #312519;
+}
+
+.cheveuxvisage{
+    background-color: #433222;
 }
 
 .visage{
@@ -31,5 +31,45 @@ td, th{
 }
 
 .visage2{
-    background-color: #FE9867;
+    background-color: #FE9963;
+}
+
+.extreme{
+    background-color: #FAAF78;
+}
+
+.vertclair{
+  background-color: #689834;
+}
+
+.vert{
+  background-color: #3F5C22;
+}
+
+.vertfonce{
+  background-color: #31481E;
+}
+
+.verttresfonce{
+  background-color: #233616;
+}
+
+.marrontresclair{
+  background-color: #975D2F;
+}
+
+.marronclair{
+  background-color: #714626;
+}
+
+.marron{
+  background-color: #8A3510;
+}
+
+.marronfonce{
+  background-color: #70300D;
+}
+
+tr:nth-child(19) td:nth-child(7){
+  background-color: yellow;
 }
