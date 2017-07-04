@@ -4,106 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Exo intégration 2 (restaurant)</title>
 </head>
 <body>
-    <div id="conteneur">
-        <header>
-            <h4>CITY GUIDE - PARIS</h4>
-            <h1>LE BILAN</h1>
-            <h3>Salle - Service - Dressage - Goût</h3>
-        </header>
-        <div id="ligne1" >
-            <div>
-                <h2>Exemple de plat</h2>
-                <p>
-                    MERLU DE LIUGNE<br />
-                    CAROTTES NOUVELLES<br />
-                    EPICES DOUCES
-                </p>
-            </div>
-        </div>
-        <div class="clear"></div>
-        <div class="ligne">
-            <div class="colonne">
-                <h2>LA SALLE</h2>
-                <p>
-                    Ambiance brute, table en bois ancien, béton ciré au sol. La salle lumineuse est trés agréable, elle est ouverte sur la cuisine. Au fond de la salle, une jolie table ronde à vue sur une rue sur un petit jardin parisien. A l'entrée un joli sol en carreaux de céramique, quelques plumes de paon et de bien jolies bouteilles anciennes...
-                </p>
-                <p>
-                    Le nombre des tables est limité, ce qui rend le restaurant trés appréciable, mais aussi trés prisé !
-                </p>
-                <p>LA NOTE</p>
-            </div>
-            <div class="colonne">
-                <img src="img/resto_01.jpg" alt="la salle">
-            </div>
-        </div>
-        <div class="clear"></div>
-        <div class="ligne">
-            <div class="colonne">
-                <img src="img/resto_02.jpg" alt="le service">
+    <header>
+        <h3>CITY GUIDE - PARIS</h3>
+        <h1>LE BILAN</h1>
+        <h5>Salle - Service - Dressage - Goût</h5>
+    </header>
 
-            </div>
-            <div class="colonne">
-                <h2>LE SERVICE</h2>
-                <p>
-                    Service toujours impeccable. L'ensemble de la table est servi rapidement, la corbeille de pain régulièrèment pleine, les serveurs expliquent le menu avec beaucoups d'attention et sont d'excellents conseils pour marier mets-vins.
-                </p>
-                <p>
-                    On reconnaît l'ensemble de l'équipe à leurs tabliers bleu.
-
-                </p>
-                <p>LA NOTE</p>
-
-            </div>
+    <div id="ligne_plat">
+        <div id="plat" >
+            <h4>Exemple de plat</h4>
+            <p>MERLU DE LIGNE</p>
+            <p>CAROTTES NOUVELLES</p>
+            <p>EPICES DOUCES</p>
         </div>
-        <div class="clear"></div>
-        <div class="ligne">
-            <div class="colonne">
-                <h2>LE DRESSAGE</h2>
-                <p>
-                    Le dressage c'est un peu la marque de fabrique du chef, avec la cuisine biensûr. Ses plats sont de vrais petits tableaux de maître. Une belle recherche dans les formes et couleurs très agréable visuellement.
-
-                </p>
-                <p>LA NOTE</p>
-            </div>
-            <div class="colonne">
-                <img src="img/resto_03.jpg" alt="le dressage">
-            </div>
-        </div>
-        <div class="clear"></div>
-        <div class="ligne">
-            <div class="colonne">
-                <img src="img/resto_04.jpg" alt="le goût">
-
-            </div>
-            <div class="colonne">
-                <h2>LE GOÛT</h2>
-                <p>
-                    Last but not least, le goût. C'est le point le plus important, et tellement bien ajusté ici. Les papilles voltent et virevoltent au rythme des saveurs si justes, des cuissons si parfaitement maîtrisées.
-                </p>
-                <p>
-                    Chaque plat, chaque association, rien n'est laissé au hasard, de l'élément principal à la toute petite feuille d'herbe délicatement posée sur le dessus du plat. Emerveillement des sens et frénésie de créativité sont au rendez-vous.
-                </p>
-                <p>LA NOTE</p>
-        </div>
-        <div class="clear"></div>
     </div>
-    <footer>
+
+    <div class="ligne">
+        <div class="plat">
+            <h2>LA SALLE</h2>
+            <hr>
+            <p>Ambiance brute, table en bois ancien, béton ciré au sol. La salle lumineuse est trés agréable, elle est ouverte sur la cuisine. Au fond de la salle, une jolie table ronde à vue sur une rue sur un petit jardin parisien. A l'entrée un joli sol en carreaux de céramique, quelques plumes de paon et de bien jolies bouteilles anciennes...</p>
+            <p>Le nombre des tables est limité, ce qui rend le restaurant trés appréciable, mais aussi trés prisé !</p>
+            <span>LA NOTE</span>
+        </div>
         <div>
-            <h2>CITY GUIDE</h2>
-            <h6>PARIS FRANCE</h6>
+            <img src="img/resto_01.jpg" alt="la salle">
+        </div>
+    </div>
+
+    <div class="ligne">
+        <div>
+            <img src="img/resto_02.jpg" alt="le service">
+        </div>
+        <div class="plat">
+            <h2>LE SERVICE</h2>
+            <hr>
+            <p>Service toujours impeccable. L'ensemble de la table est servi rapidement, la corbeille de pain régulièrèment pleine, les serveurs expliquent le menu avec beaucoups d'attention et sont d'excellents conseils pour marier mets-vins.</p>
+            <p>On reconnaît l'ensemble de l'équipe à leurs tabliers bleu.</p>
+            <span>LA NOTE</span>
+        </div>
+    </div>
+
+    <div class="ligne">
+        <div class="plat">
+            <h2>LE DRESSAGE</h2>
+            <hr>
+            <p>Le dressage c'est un peu la marque de fabrique du chef, avec la cuisine biensûr. Ses plats sont de vrais petits tableaux de maître. Une belle recherche dans les formes et couleurs très agréable visuellement.</p>
+            <span>LA NOTE</span>
+        </div>
+
+        <div>
+            <img src="img/resto_03.jpg" alt="le dressage">
+        </div>
+    </div>
+
+    <div class="ligne">
+        <div>
+            <img src="img/resto_04.jpg" alt="le goût">
+        </div>
+        <div class="plat">
+            <h2>LE GOÛT</h2>
+            <hr>
+            <p>Last but not least, le goût. C'est le point le plus important, et tellement bien ajusté ici. Les papilles voltent et virevoltent au rythme des saveurs si justes, des cuissons si parfaitement maîtrisées.</p>
+            <p>Chaque plat, chaque association, rien n'est laissé au hasard, de l'élément principal à la toute petite feuille d'herbe délicatement posée sur le dessus du plat. Emerveillement des sens et frénésie de créativité sont au rendez-vous.</p>
+            <span>LA NOTE</span>
+        </div>
+    </div>
+
+    <footer>
+        <div id="plan">
+            <p>CITY GUIDE</p>
+            <span>PARIS FRANCE</span>
         </div>
         <h1>SEPTIME</h1>
-        <p>
-            80 rue DE CHARONNE - 75012 PARIS<br />
-            01 43 67 38 29<br />
-            Lundi soir - Mardi à vendredi midi & soir
-        </p>
+        <p>80 rue DE CHARONNE - 75012 PARIS</p>
+        <p>01 43 67 38 29</p>
+        <p>Lundi soir - Mardi à vendredi midi & soir</p>
+
 
     </footer>
-    </div>
 </body>
 </html>

@@ -3,63 +3,97 @@ body{
     margin: auto;
 }
 
-header, footer {
-    text-align: center;
-    margin: 0 20%;
-    bor
-    }
-
 h1{
-        margin: 0;
+        margin: 0 30%;
         padding: 0;
         font-size: 3em;
-        font-weight: normal;
-        border-top: 2px solid #000;
-        border-bottom: 2px solid #000;
-
+        border-top: 1px solid #000;
+        border-bottom: 1px solid #000;
     }
 
-div img{
-    width: 510px;
-    height: 520px;
+h2{
+    margin-top: 30%;
+    margin-left: 30px;
+    font-size: 2em;
 }
 
+h3{
+
+}
+
+h4{
+    border-bottom: 1px solid #000;
+}
+
+header, footer {
+    text-align: center;
+    margin: auto;
+}
+
+header{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#ligne_plat {
+        height: 543px;
+        background: url(../img/plate.jpg) no-repeat 50px top;
+    }
+    #plat{
+        padding: 210px 175px 0 385px;
+        text-align: right;
+    }
+
 .ligne{
-        height: 520px;
+    height: 520px;
     }
 
     .ligne div {
         float: left;
+        width: 50%;
+        height: 520px;
+    }
+        .plat hr{
+            margin: 10px 30px;
+        }
+        .plat p{
+            margin: 0 30px;
+            font-style: italic;
+        }
+        .plat span{
+            display: inline-block;
+            margin-left: 30px;
+            color: #fff;
+            background-color: #000;
+            margin-top: 10px;
+            padding: 5px 30px 5px 5px;
+
+        }
+
+
+
+
+.clear{
+        /*clear: both;*/
+    }
+
+    img{
         width: 510px;
         height: 520px;
     }
 
-.clear{
-        clear: both;
-    }
-
-#ligne1 {
-    background: url(../img/plate.jpg)  no-repeat 50px 50px;
-    height: 543px;
-    }
-
-    #ligne1 div{
-        margin: 50px auto;
-        text-align: right;
-    }
-
-footer div {
-    margin-top: 50px;
-    height: 125px;
-    background: url(../img/plan.png) no-repeat 50% top;
-    }
-    footer div h2{
+    footer{
         margin-top: 50px;
-    }
+        margin-bottom: 100px;
+        }
 
-footer h1 {
-    margin-top: 50px;
-}
+
+
+        /*#plan {
+            margin-top: 50px;
+            height: 125px;
+            /*background: url(../img/plan.png) no-repeat 50% top;*/
+        }*/
 
 
 
