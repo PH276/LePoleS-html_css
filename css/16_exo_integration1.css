@@ -20,7 +20,46 @@ h1#header{
     height: 258px;
     background: url(../img/apple.jpg) no-repeat left top;
     margin: 0;
-}
+    }
+    h1#header a {
+      margin-left: 340px;
+      text-decoration: none;
+      }
+      h1#header a span{
+        color:green;
+        font-size: 2em;
+        text-shadow: 2px 3px gray;
+        background: linear-gradient(to bottom, #c9de96 0%, #398235 100%); /* Chrome10-25,Safari5.1-6 */
+        background-clip: text;
+        text-fill-color:transparent;
+
+      }
+
+nav{
+  height: 30px;
+  background-color: #8ed334;
+  border-top: 1px solid #ab4;
+  border-bottom: 1px solid #ab4;
+  }
+  nav ul {
+    margin: 0;
+    padding: 0;
+    text-indent: 0; /* décalage  1ère ligne*/
+    }
+    nav ul li{
+
+      /*border-width:*/
+      padding: 0 25px;
+      list-style: none;
+      float: left;
+      font-style: normal;
+      border-right: 4px solid #fff;
+      }
+      nav ul li a{
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.5em;
+      }
 
 /*2ème partie*/
 div#contenu{
