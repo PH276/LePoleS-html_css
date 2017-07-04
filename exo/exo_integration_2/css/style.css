@@ -1,0 +1,67 @@
+body{
+    width: 1020px;
+    margin: auto;
+}
+
+header, footer {
+    text-align: center;
+    margin: 0 20%;
+    bor
+    }
+
+h1{
+        margin: 0;
+        padding: 0;
+        font-size: 3em;
+        font-weight: normal;
+        border-top: 2px solid #000;
+        border-bottom: 2px solid #000;
+
+    }
+
+div img{
+    width: 510px;
+    height: 520px;
+}
+
+.ligne{
+        height: 520px;
+    }
+
+    .ligne div {
+        float: left;
+        width: 510px;
+        height: 520px;
+    }
+
+.clear{
+        clear: both;
+    }
+
+#ligne1 {
+    background: url(../img/plate.jpg)  no-repeat 50px 50px;
+    height: 543px;
+    }
+
+    #ligne1 div{
+        margin: 50px auto;
+        text-align: right;
+    }
+
+footer div {
+    margin-top: 50px;
+    height: 125px;
+    background: url(../img/plan.png) no-repeat 50% top;
+    }
+    footer div h2{
+        margin-top: 50px;
+    }
+
+footer h1 {
+    margin-top: 50px;
+}
+
+
+
+
+/**/
