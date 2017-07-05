@@ -6,46 +6,96 @@ body{
     margin: auto;
 }
 
-h1{
-        margin: 0 30%;
-        padding: 0;
-        font-size: 3em;
-        border-top: 1px solid #000;
-        border-bottom: 1px solid #000;
-    }
-
-h2{
-    margin-top: 30%;
-    margin-left: 30px;
-    font-size: 2em;
-}
-
-h3{
-
-}
-
-h4{
-    border-bottom: 1px solid #000;
-}
-
 header, footer {
     text-align: center;
     margin: auto;
 }
 
 header{
-    margin-top: 100px;
+    margin-top: 10px;
     margin-bottom: 50px;
 }
 
+h1{
+    margin: 10px 30%;
+    padding: 5px;
+    font-size: 3em;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    letter-spacing: 0.1em;
+}
+
+h2{
+    margin-top: 30%;
+    margin-left: 30px;
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+}
+
+h3{
+    color: #cf884d;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+h4{
+    font-style: italic;
+    border-bottom: 1px solid #000;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+img{
+    width: 510px;
+    height: 520px;
+}
+
+footer{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    }
+
+    footer p{
+        font-weight: bold;
+        letter-spacing: 0.1em;
+        }
+        footer p:last-child{
+            line-height: 2em;
+            font-style: italic;
+        }
+
 #ligne_plat {
-        height: 543px;
-        background: url(../img/plate.jpg) no-repeat 50px top;
+    height: 543px;
+    background: url(../img/plate.jpg) no-repeat 50px top;
+}
+#plat{
+    padding: 210px 175px 0 385px;
+    text-align: right;
+    font-weight: bold;
     }
-    #plat{
-        padding: 210px 175px 0 385px;
-        text-align: right;
+    #plat p{
+        letter-spacing: 0.2em;
     }
+
+    #plan {
+        margin-top: 70px;
+        height: 125px;
+        background: url(../img/plan.png) no-repeat 50% top;
+        }
+        #plan p{
+            position: relative;
+            top: 50px;
+            font-size: 0.8em;
+            letter-spacing: 0.3em;
+        }
+        #plan p:first-child{
+            font-weight: bold;
+        }
+        #plan p:last-child{
+            font-size: 0.1em;
+        }
+
 
 .ligne{
     height: 520px;
@@ -56,47 +106,33 @@ header{
         width: 50%;
         height: 520px;
     }
-        .plat hr{
-            margin: 10px 30px;
-        }
-        .plat p{
-            margin: 0 30px;
-            font-style: italic;
-        }
-        .plat span{
-            display: inline-block;
-            margin-left: 30px;
-            color: #fff;
-            background-color: #000;
-            margin-top: 10px;
-            padding: 5px 30px 5px 5px;
 
-        }
+.plat hr{
+    margin: 10px 30px;
+}
+.plat p{
+    margin: 0 30px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+.plat span{
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 30px;
+    color: #fff;
+    letter-spacing: 0.2em;
+    background-color: #000;
+    padding: 5px 30px 5px 5px;
 
-
-
-
-.clear{
-        /*clear: both;*/
-    }
-
-    img{
-        width: 510px;
-        height: 520px;
-    }
-
-    footer{
-        margin-top: 50px;
-        margin-bottom: 100px;
-        }
+}
 
 
 
-        /*#plan {
-            margin-top: 50px;
-            height: 125px;
-            /*background: url(../img/plan.png) no-repeat 50% top;*/
-        }*/
+
+
+
+
 
 
 
