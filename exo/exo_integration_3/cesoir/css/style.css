@@ -1,0 +1,43 @@
+body{
+    background-color: #a0c4b6;
+    margin: 50px auto ;
+    width: 50%;
+}
+
+nav{
+    background-image: url('../img/planks0089.jpg') ;
+    height: 500px;
+}
+
+img{
+    width: 100%;
+}
+
+footer{
+    height: 300px;
+    }
+    footer .row{
+        height: 150px;
+
+    }
+
+#contenu{
+    border-radius: 10px;
+    margin: 10px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: gray;
+}
+
+.row{
+    margin: 0;
+
+}
+
+.corp{
+    background-image: url('../img/bg_txt.jpg') ;
+}
+
+.img{
+    padding: 0;
+}
