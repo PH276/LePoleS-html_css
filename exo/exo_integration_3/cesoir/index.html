@@ -6,42 +6,66 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ce Soir</title>
 
-    <!-- Bootrstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap-3.3.7-dist/css/bootstrap.min.css">
-
     <!-- css reset  -->
     <link rel="stylesheet" href="css/reset.css">
+
+    <!-- Bootrstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap-3.3.7-dist/css/bootstrap.min.css">
 
     <!-- CSS personnel -->
     <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
-    <div id="contenu">
-        <nav class="navbar">
-            <div>
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="#">
-                        <h1><span>c<span>e</span> soir</span></h1>
-                    </a>
-                </div>
+    <div id="contenu" class="container">
+        <div id="points">
+            <div class="point"></div>
+            <div class="point"></div>
+            <div class="point"></div>
+        </div>
+        <header>
+            <nav class="navbar">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#">
+                            <h2>c<span class="e">e</span> soir</h2>
+                            <hr>
+                        </a>
+                    </div>
 
-                <div id="navbar" class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#story">our story</a></li>
-                        <li><a href="#fare">fare</a></li>
-                        <li><a href="#drink">drink</a></li>
-                        <li><a href="#contact">contact</a></li>
-                    </ul>
-                </div><!--/.nav-collapse -->
+                    <div>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#story">our story</a></li>
+                            <li><a href="#fare">fare</a></li>
+                            <li><a href="#drink">drink</a></li>
+                            <li><a href="#contact">contact</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+
+            <div id="logo">
+                <!-- <img src="img/cerf.svg" alt="logo"> -->
+                <div id="fond-logo"></div>
+            </div>
+
+            <div class="bas">
+                <span class="fa fa-chevron-down fa-3x" aria-hidden="true"></span>
 
             </div>
-        </nav>
+        </header>
 
-        <div class="corp">
+        <div id="corps" class="container-fluid">
             <div id="story" class="row">
-                <div class="col-md-4 text"></div>
-                <div class="col-md-8 img">
+                <div class="col-md-5">
+                    <div class="text">
+                        <h1>our story</h1>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <span>est. 2004</span>
+                    </div>
+                </div>
+                <div class="col-md-7 img">
                     <img src="img/asperge.jpg" alt="asperge">
                 </div>
             </div>
@@ -50,39 +74,67 @@
                 <div class="col-md-8 img">
                     <img src="img/soap.jpg" alt="soap">
                 </div>
-                <div class="col-md-4 text"></div>
+                <div class="col-md-4">
+                    <div class="text">
+                        <img src="img/fare.png" alt="fare">
+                        <h1>fresh fare</h1>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <span>all natural</span>
+                    </div>
+                </div>
             </div>
 
             <div id="drink" class="row">
-                <div class="col-md-4 text"></div>
-                <div class="col-md-8 img">
+                <div class="col-md-5 div-">
+                    <div class="text">
+                        <img src="img/drink.png" alt="drink">
+                        <h1>local distillation</h1>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <span>craft liquor</span>
+                    </div>
+                </div>
+                <div class="col-md-7 img">
                     <img src="img/moule.jpg" alt="moule">
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row img">
                 <img src="img/eggs.jpg" alt="eggs">
             </div>
+        </div>
 
-
-            <footer>
+        <footer>
+            <div class="container">
                 <div class="row">
                     <div class="col-md-2">
-                        <h1><span class="logo">c<span class="e">e</span> soir</span></h1>
-                    </div>
-                </div>
-                <div class="row">
-                    <div id="contact" class="col-md-2">
-                        <p>adresse</p>
-                        <p>cp ville</p><br>
-                        <p>tel</p>
-                        <p>fax</p>
-                    </div>
-                    <div class="col-md-2 col-md-offset-8">icônes</div>
-                </div>
+                        <div>
+                            <h2>c<span class="e">e</span> soir</h2>
+                            <hr>
+                        </div>
 
-            </footer>
-        </div> <!-- fin de .corp -->
+                        <div id="contact">
+                            <p>adresse</p>
+                            <p>cp ville</p>
+                        </div>
+
+                        <div>
+                            <p>tel</p>
+                            <p>fax</p>
+                        </div>
+                    </div>
+                    <div class="col-md-1 col-md-offset-9 padding0">
+                        <div id="icones">
+                            <i class="fa fa-twitter"></i>
+                            <i class="fa fa-facebook"></i>
+                            <i class="fa fa-instagram"></i>
+                            <i class="fa fa-google-plus"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
         <!-- contenu HTML -->
 
         <!-- JQuery de Bootstrap -->
@@ -90,6 +142,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
     <!-- Latest compiled and minified JavaScript -->
-    <script type="text/javascript" src="css/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script src="https://use.fontawesome.com/d8b215ba8b.js"></script>
+
 </body>
 </html>

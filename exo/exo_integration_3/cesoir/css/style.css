@@ -1,42 +1,206 @@
 body{
     background-color: #a0c4b6;
-    margin: 50px auto ;
-    width: 50%;
 }
 
-nav{
+h1{
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: arial;
+    }
+
+h2{
+        margin:0;
+        padding: 0;
+    }
+
+hr{
+    background-color: red;
+    height: 10px;
+    width: 30px;
+}
+
+header{
+    position:relative;
     background-image: url('../img/planks0089.jpg') ;
     height: 500px;
-}
+    }
 
-img{
-    width: 100%;
+    nav{
+        padding-top: 40px;
+        padding-left: 60px;
+    }
+
+header, footer{
+    text-transform: uppercase;
+    font-weight:bold;
 }
 
 footer{
-    height: 300px;
+    height: 280px;
     }
-    footer .row{
-        height: 150px;
-
+    footer .container{
+        padding: 90px 50px 70px;
+    }
+    footer p{
+        font-size: 0.7em;
+        line-height: 0.1em;
+    }
+    footer hr{
+        margin-top: 10px;
+        margin-left: 40px;
     }
 
 #contenu{
-    border-radius: 10px;
-    margin: 10px auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: gray;
+    border-radius: 8px;
+    padding: 5px 0 20px;
+    margin-top:50px;
+    margin-bottom:50px;
+    background-color: #d7d7d7;
 }
 
-.row{
-    margin: 0;
+#points{
+    padding-left: 5px;
+    }
+    .point{
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        margin: 5px;
+    }
+    .point:first-child{
+        margin-left: 10px;
+        background-color: #ef929a;
+    }
 
+    .point:nth-child(2){
+        background-color: #f2dc91;
+    }
+
+    .point:last-child{
+        background-color: #b9db8e;
+    }
+
+#logo{
+    margin: auto;
+    background-image: url('../img/cerf.svg');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 200px;
+    padding-top: 90px;
+    padding-left: 30px;
+    width: 200px;
+    height: 250px;
+
+    /*transform: rotate(135deg);*/
 }
 
-.corp{
+#fond-logo{
+
+    width: 185px;
+    height: 180px;
+    border: 95px solid rgba(210, 63, 115, 0.5);
+    border-left-color: rgba(210, 63, 115, 0.5);
+    border-top-color: rgba(210, 63, 115, 0.5);
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+}
+
+#corps{
+    padding: 0;
+}
+
+#corps, footer{
     background-image: url('../img/bg_txt.jpg') ;
 }
+
+#contact{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.padding0{
+    padding: 0;
+}
+
+#icones{
+    padding: 0;
+    margin-top: 130px;
+    color:red;
+}
+
+.nav>li>a{
+    color: inherit;
+    padding: 0 25px 15px;
+    font-weight: 900;
+}
+
+.nav>li>a:hover{
+    background-color: inherit;
+}
+
+.navbar-header a{
+    margin:0;
+    padding: 0;
+}
+
+a.navbar-brand{
+    color: inherit;
+}
+
+.text{
+    font-size: 1em;
+    line-height: 1em;
+}
+
+.text img{
+    opacity: 0.5;
+    border-radius: 50%;
+}
+
+.text span{
+        display: inline-block;
+        text-transform: uppercase;
+        color: red;
+        margin-top: 10px;
+}
+
+.img img{
+    width: 100%;
+}
+
+
+#corps .row{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.e{
+    position: relative;
+    top:-7px;
+    text-decoration: underline;
+    font-size: 0.7em;
+}
+
+.bas{
+    color:red;
+    padding-top: 50px;
+    margin: auto;
+    width: 45px;
+    font-weight:100;
+}
+
+.text{
+    text-align: center;
+    }
+    .text p{
+        font-style: italic;
+        width: 50%;
+        margin: auto;
+    }
 
 .img{
     padding: 0;
