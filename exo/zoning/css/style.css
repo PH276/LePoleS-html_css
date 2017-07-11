@@ -3,37 +3,41 @@ body{
     margin: auto;
 }
 
-header div{
-    height: 50px;
+p{
+    margin: auto;
+    color: white;
+    text-align: center;
+    vertical-align:
 }
 
-header div:first-child{
+header>div{
+}
+
+header>div:first-child{
+    height: 60px;
     background-color: black;
 }
 
-header div:last-child{
+header>div:last-child{
+    height: 30px;
     background-color: gray;
 }
 
-.bloc{
-    float: left;
-    width: 48%;
-    height: 50px;
-    border: 1px solid white;
-}
+.bloc p{
+    height: 1em;
+    margin: auto 0;
 
+    height: inherit;
+
+    border: 1px solid white;
+
+}
 
 #corps{
     background-color: cyan;
-    height: 220px;
+    height: 210px;
     position: relative;
-    margin: auto;
-    width: 90%;
-}
-
-.zone{
-    width: 50%;
-    position: absolute;
+    width: 100%;
 }
 
 #zone1{
@@ -56,19 +60,30 @@ header div:last-child{
     right: 5px;
 }
 
-#zone1 .bloc{
+.zone{
+    width: 50%;
+    position: absolute;
+}
+
+.bloc{
+    float: left;
+    width: 50%;
+    height: 50px;
+}
+
+#zone1 {
     background-color: red;
 }
 
-#zone2 .bloc{
+#zone2 {
     background-color: green;
 }
 
-#zone3 .bloc{
-    background-color: yellow;
+#zone3 {
+    background-color: maroon;
 }
 
-#zone4 .bloc{
+#zone4 {
     background-color: blue;
 }
 
