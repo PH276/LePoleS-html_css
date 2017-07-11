@@ -1,0 +1,78 @@
+body{
+    width: 70%;
+    margin: auto;
+}
+
+header div{
+    height: 50px;
+}
+
+header div:first-child{
+    background-color: black;
+}
+
+header div:last-child{
+    background-color: gray;
+}
+
+.bloc{
+    float: left;
+    width: 48%;
+    height: 50px;
+    border: 1px solid white;
+}
+
+
+#corps{
+    background-color: cyan;
+    height: 220px;
+    position: relative;
+    margin: auto;
+    width: 90%;
+}
+
+.zone{
+    width: 50%;
+    position: absolute;
+}
+
+#zone1{
+    top: 5px;
+    left: 5px;
+}
+
+#zone2{
+    top: 5px;
+    right: 5px;
+}
+
+#zone3{
+    bottom: 5px;
+    left: 5px;
+}
+
+#zone4{
+    bottom: 5px;
+    right: 5px;
+}
+
+#zone1 .bloc{
+    background-color: red;
+}
+
+#zone2 .bloc{
+    background-color: green;
+}
+
+#zone3 .bloc{
+    background-color: yellow;
+}
+
+#zone4 .bloc{
+    background-color: blue;
+}
+
+footer{
+    background-color: gray;
+    height: 50px;
+}
