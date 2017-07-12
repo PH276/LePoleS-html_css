@@ -4,30 +4,28 @@ body{
 }
 
 p{
-    margin: auto;
     color: white;
     text-align: center;
-    vertical-align:
 }
 
-header>div{
-}
-
-header>div:first-child{
-    height: 60px;
+header p{
+    padding: 2em 0;
+    /*height: 1em;*/
     background-color: black;
 }
 
-header>div:last-child{
-    height: 30px;
+nav p{
+    padding: 1.5em 0;
+    /*height: 1em;*/
     background-color: gray;
 }
 
+
 .bloc p{
     height: 1em;
-    margin: auto 0;
-
-    height: inherit;
+    /*margin: auto 0;*/
+    padding: 2em 0;
+    /*height: inherit;*/
 
     border: 1px solid white;
 
@@ -35,7 +33,7 @@ header>div:last-child{
 
 #corps{
     background-color: cyan;
-    height: 210px;
+    height: 21em;
     position: relative;
     width: 100%;
 }
@@ -68,7 +66,7 @@ header>div:last-child{
 .bloc{
     float: left;
     width: 50%;
-    height: 50px;
+    /*height: 100px;*/
 }
 
 #zone1 {
@@ -88,6 +86,6 @@ header>div:last-child{
 }
 
 footer{
+    padding: 1.5em 0;
     background-color: gray;
-    height: 50px;
 }

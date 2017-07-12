@@ -1,0 +1,62 @@
+#conteneur{
+    width: 960px;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+    background-color: paleturquoise;
+}
+
+header{
+    background: tan;
+    height: 60px;
+    line-height: 60px;
+}
+
+nav{
+    background: darkslategray;
+    height: 30px;
+    line-height: 30px;
+}
+
+section{
+    height: 500px;
+    background: gray;
+    margin: 10px;
+}
+
+.grand{
+    border: 1px solid;
+    float: left;
+    height: 248px;
+    width: 468px;
+}
+
+.petit{
+    border: 1px solid;
+    float: left;
+    height: 122px;
+    width: 232px;
+    line-height: 122px;
+}
+
+.c1{
+    background: blue;
+}
+
+.c2{
+    background: maroon;
+}
+
+.c3{
+    background: red;
+}
+
+.c4{
+    background: green;
+}
+
+footer{
+    background: silver;
+    height: 70px;
+    line-height: 70px;
+}

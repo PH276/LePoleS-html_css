@@ -1,0 +1,16 @@
+.ligne{
+    height: 30px;
+}
+
+.rect{
+    float: left;
+    height: 30px;
+    width: 90px;
+    background-color: red;
+}
+
+.carre{
+    float: left;
+    border: 15px solid transparent;
+    border-left: 15px solid red;
+}
